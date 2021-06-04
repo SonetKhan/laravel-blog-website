@@ -8,6 +8,7 @@ use App\ServicesModel;
 use App\CourseModel;
 use App\ProjectsModel;
 use App\ContactModel;
+use App\ReviewModel;
 class HomeController extends Controller
 {
     function HomeIndex(){
@@ -21,9 +22,10 @@ class HomeController extends Controller
         $CoursesData = CourseModel::orderBy('id','desc')->limit(7)->get();
 
         $ProjectData = ProjectsModel::orderBy('id','desc')->limit(10)->get();
+        $ReviewData = ReviewModel::all();
 
 
-        return view('Home',['ServicesData'=>$ServicesData,'CourseData'=>$CoursesData,'ProjectData'=>$ProjectData]);
+        return view('Home',['ServicesData'=>$ServicesData,'CourseData'=>$CoursesData,'ProjectData'=>$ProjectData,'ReviewData'=>$ReviewData]);
 
     }
     function ContactSend(Request $request){
