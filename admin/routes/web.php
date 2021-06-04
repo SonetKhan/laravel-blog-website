@@ -58,3 +58,17 @@ Route::post('/projectDetails','ProjectsController@getProjectDetails');
 Route::post('/projectsUpdate','ProjectsController@getProjectUpdate');
 
 Route::post('/projectAdd','ProjectsController@getProjectAdd');
+
+//..............admin panel routes for contacts management.........
+
+Route::get('/contacts','ContactsController@ContactsIndex');
+
+Route::get('/getContactsData','ContactsController@getContactsData');
+
+Route::post('/contactDelete','ContactsController@contactDelete');
+
+Route::post('/projectDetails','ContactsController@getProjectDetails');
+
+Route::post('/projectsUpdate','ContactsController@getProjectUpdate');
+
+Route::post('/projectAdd','ContactsController@getProjectAdd');
