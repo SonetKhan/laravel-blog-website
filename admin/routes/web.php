@@ -72,3 +72,17 @@ Route::post('/projectDetails','ContactsController@getProjectDetails');
 Route::post('/projectsUpdate','ContactsController@getProjectUpdate');
 
 Route::post('/projectAdd','ContactsController@getProjectAdd');
+
+//...................Admin panel routes for reviews management..............
+
+Route::get('/reviews','ReviewController@reviewIndex');
+
+Route::get('/getReviewsData','ReviewController@getReviewsData');
+
+Route::post('/reviewDelete','ReviewController@reviewDelete');
+
+Route::post('/reviewDetails','ReviewController@getReviewDetails');
+
+Route::post('/reviewsUpdate','ReviewController@getReviewUpdate');
+
+Route::post('/reviewAdd','ReviewController@getReviewAdd');

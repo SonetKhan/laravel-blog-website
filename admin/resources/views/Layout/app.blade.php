@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
     <link rel="stylesheet" href="{{asset('css/datatables.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/datatables-select.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/custom.css')}}">
 </head>
 <body class="fix-header fix-sidebar">
 

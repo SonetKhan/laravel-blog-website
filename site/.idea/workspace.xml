@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76e89e78-44b9-4cbb-af68-7fa810d8be76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/Component/HomeReview.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +169,8 @@
       <workItem from="1622518972385" duration="7709000" />
       <workItem from="1622602257742" duration="7684000" />
       <workItem from="1622688754599" duration="8312000" />
-      <workItem from="1622822158289" duration="5557000" />
+      <workItem from="1622822158289" duration="6152000" />
+      <workItem from="1622984413186" duration="823000" />
     </task>
     <servers />
   </component>
@@ -189,6 +187,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
