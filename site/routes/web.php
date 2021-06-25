@@ -19,3 +19,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/','HomeController@HomeIndex');
 
 Route::post('/contactsSend','HomeController@ContactSend');
+
+Route::get('/courses','CoursesController@CoursesPage');
+
+Route::get('/projects','ProjectsController@ProjectsPage');
+
+Route::get('/refund','RefundController@RefundPage');
+
+Route::get('/terms','TermsController@TermsPages');
+
+Route::get('/contact','ContactController@ContactPage');

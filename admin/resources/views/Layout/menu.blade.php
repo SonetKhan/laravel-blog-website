@@ -4,11 +4,11 @@
                 <div class="navbar-collapse">
                     <ul class="navbar-nav mr-auto mt-md-0">
                         <li class="nav-item "> <a class="nav-link nav-toggler  hidden-md-up  waves-effect waves-dark" href="javascript:void(0)"><i class="fas  fa-bars"></i></a></li>
-                        <li class="nav-item m-l-10"> <a class="nav-link sidebartoggler hidden-sm-down text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="fas fa-bars"></i></a> </li> 
+                        <li class="nav-item m-l-10"> <a class="nav-link sidebartoggler hidden-sm-down text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="fas fa-bars"></i></a> </li>
                      <li class="nav-item mt-3">ADMIN</li>
 					</ul>
                     <ul class="navbar-nav my-lg-0">
-                        <li class="nav-item"><a href="" class="btn btn-sm btn-danger">Logout</a></li>
+                        <li class="nav-item"><a href="{{url('/logout')}}" class="btn btn-sm btn-danger">Logout</a></li>
                     </ul>
                 </div>
             </nav>
@@ -25,7 +25,8 @@
                         <li> <a href="{{url('/projects')}}" ><span><i class="fas fa-project-diagram"></i> </span><span class="hide-menu">Projects</span></a></li>
                         <li> <a href="{{url('/contacts')}}" ><span><i class="fas fa-sms"></i> </span><span class="hide-menu">Contacts</span></a></li>
                         <li> <a href="{{url('/reviews')}}" ><span><i class="fas fa-comments"></i> </span><span class="hide-menu">Reviews</span></a></li>
-					</ul>
+                        <li> <a href="{{url('/photo')}}" ><span><i class="fas fa-comments"></i> </span><span class="hide-menu">Photo Gallery</span></a></li>
+                    </ul>
                 </nav>
             </div>
         </aside>
